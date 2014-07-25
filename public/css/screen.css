@@ -36,7 +36,7 @@
 }
 .sidebar-sticky .social a.github:hover { border: 1px solid #909ab6 }
 .sidebar-sticky .social a.rss {
-    background: url('/images/social/rss.png?1385702818') center no-repeat #ef7522;
+    background: url('/public/rss.png') center no-repeat #ef7522;
     border: 1px solid #EF7522;
 }
 .sidebar-sticky .social a.rss:hover { border: 1px solid #cf5d0f }
