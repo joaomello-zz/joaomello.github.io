@@ -24,7 +24,11 @@ function minhaDiretiva() {
             };
         },
         controllerAs: 'vm',
-        template: `dsadas`;
+        template: `
+        <div>
+            <input ng-model="contador">
+            <button type="button" ng-click="vm.add()">Add</button>
+        </div>`;
     };
 }
 ~~~
