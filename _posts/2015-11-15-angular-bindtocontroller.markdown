@@ -5,7 +5,7 @@ layout: post
 tags: [angular, directive, frontend]
 categories: [webdev]
 ---
-Na versão 1.2 do Angular foi introduzido a sintax *controllerAs*, remvendo a necessidade de usar *$scope* (não em todos os casos). Mas, mesmo assim quando criavamos nossa diretiva usando *controllerAs* tinhamos que usar *$scope* para poder acessar as propriedades passadas a ela, segue o exemplo?
+Na versão 1.2 do Angular foi introduzido a sintax *controllerAs*, removendo a necessidade de usar *$scope* (não em todos os casos). Mas, mesmo assim quando criávamos nossa diretiva usando *controllerAs* tínhamos que usar *$scope* para poder acessar as propriedades passadas a ela, segue o exemplo?
 
 ~~~ js
 angular
