@@ -4,3 +4,4 @@ title: Mello's Blog
 tagline: 
 description: I make things.
 paginate: 5
+markdown: kramdown
