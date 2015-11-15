@@ -51,11 +51,10 @@ function minhaDiretiva() {
             };
         },
         controllerAs: 'vm',
-        template: `
-        <div>
-            <input ng-model="vm.contador">
-            <button type="button" ng-click="vm.add()">Add</button>
-        </div>`
+        template: '<div> ' +
+        '    <input ng-model="vm.contador"> '+
+        '    <button type="button" ng-click="vm.add()">Add</button> ' +
+        '</div>'
     };
 }
 ~~~
