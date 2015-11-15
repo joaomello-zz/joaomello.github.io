@@ -28,7 +28,7 @@ function minhaDiretiva() {
         <div>
             <input ng-model="contador">
             <button type="button" ng-click="vm.add()">Add</button>
-        </div>`;
+        </div>`
     };
 }
 ~~~
