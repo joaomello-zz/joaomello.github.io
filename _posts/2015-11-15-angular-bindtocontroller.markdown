@@ -24,15 +24,13 @@ function minhaDiretiva() {
             };
         },
         controllerAs: 'vm',
-        template: ' <div> ' +
-        '   <input ng-model="contador"> ' +
-        '   <button type="button" ng-click="vm.add()">Add</button> ' +
-        '</div>'
+        template: `dsadas`;
     };
 }
 ~~~
 
 Percebe-se que fica não fica nice assim, na versão 1.3 do angular ficou melhor:
+
 ~~~ js
 angular
     .module('app', [])
@@ -41,18 +39,19 @@ angular
 function minhaDiretiva() {
     return {
         restrict: 'E',
-        scope: {
-            contador: '='
+        scope: { },
+        bindToController: {
+            contador: '='   
         },
-        controller: function ($scope) {
+        controller: function () {
             this.add = function () {
-                ++$scope.contador;
+                ++this.contador;
             };
         },
         controllerAs: 'vm',
-        template: ' <div> ' +
-        '   <input ng-model="contador"> ' +
-        '   <button type="button" ng-click="vm.add()">Add</button> ' +
+        template: '<div> ' +
+        '    <input ng-model="vm.contador"> '+
+        '    <button type="button" ng-click="vm.add()">Add</button> ' +
         '</div>'
     };
 }
