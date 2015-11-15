@@ -41,19 +41,18 @@ angular
 function minhaDiretiva() {
     return {
         restrict: 'E',
-        scope: { },
-        bindToController: {
-            contador: '='   
+        scope: {
+            contador: '='
         },
-        controller: function () {
+        controller: function ($scope) {
             this.add = function () {
-                ++this.contador;
+                ++$scope.contador;
             };
         },
         controllerAs: 'vm',
-        template: '<div> ' +
-        '    <input ng-model="vm.contador"> '+
-        '    <button type="button" ng-click="vm.add()">Add</button> ' +
+        template: ' <div> ' +
+        '   <input ng-model="contador"> ' +
+        '   <button type="button" ng-click="vm.add()">Add</button> ' +
         '</div>'
     };
 }
