@@ -26,8 +26,8 @@
 }
 .sidebar-sticky .social a:hover { opacity: 1 }
 .sidebar-sticky .social a.linkedin {
-    background: url('/public/linkedin.png') center no-repeat #55cff8;
-    border: 1px solid #55CFF8;
+    background: url('/public/linkedin.png') center no-repeat #164C6C;
+    border: 1px solid #164C6C;
 }
 .sidebar-sticky .social a.linkedin:hover { border: 1px solid #24c1f6 }
 .sidebar-sticky .social a.twitter {
